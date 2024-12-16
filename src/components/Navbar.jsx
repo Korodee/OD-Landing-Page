@@ -7,7 +7,7 @@ const Navbar = () => {
                 <img src={logo} alt="Logo" />
             </div>
 
-            <div className="flex space-x-6">
+            <div className="flex pl-8 space-x-6">
                 <a
                     href="#"
                     className="text-white text-lg font-medium hover:bg-white hover:text-[#0B1D39] py-2 px-4 rounded-[12px] transition duration-300 ease-in-out"
