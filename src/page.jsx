@@ -1,9 +1,10 @@
-import Navbar from "./components/Navbar";
+
+import HeroSection from "./components/HeroSection";
 
 const Page = () => {
     return (
         <div>
-            <Navbar />
+          <HeroSection />
         </div>
     );
 };
