@@ -37,10 +37,15 @@ const HeroSection = () => {
                     <p className="text-blue-400 text-lg md:text-2xl font-medium mt-4 opacity-0 animate-fade-up delay-200">
                         Empower Advanced Options <br /> Computational Insights.
                     </p>
-
-                    <button className="bg-blue-500 text-white text-lg md:text-xl font-semibold px-8 py-4 rounded-full mt-8 shadow-lg transform scale-95 opacity-0 transition-all duration-300 ease-in-out hover:bg-blue-600 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 animate-fade-up delay-[500ms]">
-                        Start Now
-                    </button>
+                    <a
+                        href="https://optionsdepth.com/app/login"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="bg-blue-500 text-white text-lg md:text-xl font-semibold px-8 py-4 rounded-full mt-8 shadow-lg transform scale-95 opacity-0 transition-all duration-300 ease-in-out hover:bg-blue-600 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-blue-300 animate-fade-up ">
+                            Start Now
+                        </button>
+                    </a>
                 </div>
             </div>
 

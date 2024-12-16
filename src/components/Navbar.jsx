@@ -15,7 +15,7 @@ const Navbar = () => {
                     Feature
                 </a>
                 <a
-                    href="#"
+                    href="https://optionsdepth.com/articles/"
                     className="text-white text-lg font-medium hover:bg-white hover:text-[#0B1D39] py-2 px-4 rounded-[12px] transition duration-300 ease-in-out"
                 >
                     Articles
@@ -31,14 +31,25 @@ const Navbar = () => {
             {/* Buttons */}
             <div className="space-x-3">
                 {/* Login Button */}
-                <button className="text-white px-4 py-3 rounded-[15px] border border-white hover:bg-white hover:text-blue-500 hover:scale-105 transition-all duration-300 ease-in-out">
-                    Login
-                </button>
-
+                <a
+                    href="https://optionsdepth.com/app/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button className="text-white px-4 py-3 rounded-[15px] border border-white hover:bg-white hover:text-blue-500 hover:scale-105 transition-all duration-300 ease-in-out">
+                        Login
+                    </button>
+                </a>
                 {/* Start Now Button */}
-                <button className="bg-blue-500 text-white px-4 py-3 rounded-[15px] hover:bg-blue-600 hover:scale-105 transition-all duration-300 ease-in-out">
-                    Start Now
-                </button>
+                <a
+                    href="https://optionsdepth.com/app/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button className="bg-blue-500 text-white px-4 py-3 rounded-[15px] hover:bg-blue-600 hover:scale-105 transition-all duration-300 ease-in-out">
+                        Start Now
+                    </button>
+                </a>
             </div>
         </nav>
     );
