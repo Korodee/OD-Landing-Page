@@ -1,13 +1,8 @@
-import "./App.css";
+import Page from "./page";
+import "./index.css";
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <p>Korode</p>
-            </header>
-        </div>
-    );
+    return <Page />;
 }
 
 export default App;
