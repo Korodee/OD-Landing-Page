@@ -38,7 +38,7 @@ const HeroSection = () => {
                         Empower Advanced Options <br /> Computational Insights.
                     </p>
                     <a
-                        href="https://optionsdepth.com/app/login"
+                        href="https://optionsdepth.com/app/sign-up"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

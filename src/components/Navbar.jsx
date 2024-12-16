@@ -42,7 +42,7 @@ const Navbar = () => {
                 </a>
                 {/* Start Now Button */}
                 <a
-                    href="https://optionsdepth.com/app/login"
+                    href="https://optionsdepth.com/app/sign-up"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
