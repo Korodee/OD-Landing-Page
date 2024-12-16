@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import heroVideo from "../assets/mp4/hero-background.MP4"; // Adjust path as needed
+import heroVideo from "../assets/mp4/hero-background.MP4";
 
 const HeroSection = () => {
     return (
