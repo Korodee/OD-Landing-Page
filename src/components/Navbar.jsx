@@ -76,7 +76,7 @@ const Navbar = () => {
                 <div
                     className={`${
                         menuOpen ? "block" : "hidden"
-                    } mt-4 flex flex-col space-y-4 bg-gradient-to-b from-[#0B1D39] via-[#1E2D4D] to-[#243B5D] p-6 rounded-lg shadow-lg`}
+                    } mt-4 flex flex-col space-y-4 bg-gradient-to-b from-[#0B1D39] via-[#1E2D4D] to-[#243B5D] p-6 rounded-lg shadow-lg z-50`}
                 >
                     <a
                         href="#"
